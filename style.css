@@ -1,0 +1,56 @@
+:root{
+    --primary: #ffcc5c;
+    --primary-light: #96ceb4;
+    --secondary: #96ceb4;
+    --secondary-light: #ffcc5c;
+}
+
+.navbar{
+    background-color: var(--primary);
+    height: 130px;
+}
+
+.navbar p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.menu{
+    position: absolute;
+    right: 50px;
+    top: 78px;
+    z-index: 1;
+
+}
+
+.menu a{
+    font-size: 20px;
+    color  : #588c7e;
+}
+
+.main-content-cards{
+    gap: 40px;
+
+}
+
+footer{
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    background-color: var(--secondary-light);
+
+}
+
+footer p {
+    font-size: 1rem;
+    color: black;
+}
+footer small{
+    font-size: 1rem;
+    color: black;
+}
+
+
+
+
